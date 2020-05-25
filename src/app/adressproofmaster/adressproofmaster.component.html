@@ -1,0 +1,32 @@
+<div class="content-wrapper">
+  <section class="content">
+    <div class="container-fluid" style="background-color: white;">
+      <div class="row">
+        <div class="content-wrapper marginleft">
+          <section class="content">
+            <form #frm="ngForm">
+            <div class="container-fluid">
+              <ion-grid>
+                <ion-row>
+                  <ion-col>
+                    <h3>
+                      <b>AdressProofMaster</b>
+                    </h3>
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+              <ion-item>
+                <ion-label>Title</ion-label>
+                <ion-input type="text" id="title"  name="title" #title="ngModel" [(ngModel)]="Title"></ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-button color="primary">ADD AddressProofMaster</ion-button>
+              </ion-item> 
+            </div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

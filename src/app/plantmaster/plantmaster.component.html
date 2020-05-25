@@ -1,0 +1,32 @@
+<div class="content-wrapper">
+  <section class="content">
+    <div class="container-fluid" style="background-color: white;">
+      <div class="row">
+        <div class="content-wrapper marginleft">
+          <section class="content">
+            <form #frm="ngForm">
+            <div class="container-fluid">
+              <ion-grid>
+                <ion-row>
+                  <ion-col>
+                    <h3>
+                      <b>PlantMaster</b>
+                    </h3>
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+              <ion-item>
+                <ion-label>Plant name</ion-label>
+                <ion-input type="text" id="plantnm"  name="plantnm" #plantnm="ngModel" [(ngModel)]="PlantNm"></ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-button color="primary">ADD PlantMaster</ion-button>
+              </ion-item> 
+            </div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
